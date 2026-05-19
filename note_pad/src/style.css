@@ -1,0 +1,91 @@
+
+/* ================= BASE ================= */
+.root {
+    -fx-font-family: "Segoe UI";
+}
+
+/* ================= LIGHT THEME ================= */
+.light {
+    -fx-background-color: #f5f3ff;
+}
+
+/* Text Area (Light) */
+.light .text-area {
+    -fx-control-inner-background: #ffffff;
+    -fx-text-fill: #2d2b55;
+    -fx-font-size: 14px;
+    -fx-highlight-fill: #d8ccff;
+    -fx-highlight-text-fill: #2d2b55;
+}
+
+/* Menu (Light) */
+.menu-bar {
+    -fx-background-color: #dcd6ff;
+}
+
+.menu-bar .label {
+    -fx-text-fill: #2d2b55;
+}
+
+/* ================= DARK THEME ================= */
+.dark {
+    -fx-background-color: #1f1b2e;
+}
+
+/* Text Area (Dark) */
+.dark .text-area {
+    -fx-control-inner-background: #2b2540;
+    -fx-text-fill: #e6e0ff;
+    -fx-font-size: 14px;
+    -fx-highlight-fill: #5b4b8a;
+    -fx-highlight-text-fill: white;
+}
+
+
+/* ================= LIGHT MENU ================= */
+.menu-bar {
+    -fx-background-color: #dcd6ff;
+}
+
+.menu-bar .label {
+    -fx-text-fill: #2d2b55;
+}
+
+/* dropdown menu background */
+.context-menu {
+    -fx-background-color: #ffffff;
+}
+
+/* menu items text */
+.menu-item .label {
+    -fx-text-fill: #2d2b55;
+}
+
+/* hover */
+.menu-item:focused {
+    -fx-background-color: #e6e0ff;
+}
+
+/* ================= DARK MENU ================= */
+.dark .menu-bar {
+    -fx-background-color: #2b2540;
+}
+
+.dark .menu-bar .label {
+    -fx-text-fill: #e6e0ff;
+}
+
+/* dropdown menu */
+.dark .context-menu {
+    -fx-background-color: #1f1b2e;
+}
+
+/* menu items text */
+.dark .menu-item .label {
+    -fx-text-fill: #e6e0ff;
+}
+
+/* hover effect */
+.dark .menu-item:focused {
+    -fx-background-color: #3a2f5c;
+}

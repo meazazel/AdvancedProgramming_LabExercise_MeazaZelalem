@@ -1,0 +1,23 @@
+.root {
+    -fx-background-color: transparent;
+}
+
+.text-area {
+    -fx-font-size: 14px;
+}
+
+.text-area .content {
+    -fx-background-color: #fff9a8;
+}
+
+.button {
+    -fx-background-color: #ffcc00;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-background-radius: 20;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #e6b800;
+}
