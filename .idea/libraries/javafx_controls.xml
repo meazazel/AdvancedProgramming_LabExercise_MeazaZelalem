@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="javafx.controls">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../openjfx-17.0.17_windows-x64_bin-sdk/javafx-sdk-17.0.17/lib/javafx.controls.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
